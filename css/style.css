@@ -112,7 +112,7 @@ strong{font-weight:500}
 .top.scrolled .nav .btn{background:var(--navy);color:var(--white);border-color:var(--navy)}
 .top.scrolled .nav .btn:hover{background:var(--navy-2);color:var(--white)}
 
-.eyebrow.tagline{text-transform:none;letter-spacing:.04em;font-size:15px}
+.eyebrow.tagline{text-transform:none;letter-spacing:.02em;font-size:22px;color:var(--navy)}
 
 .rature{position:relative;display:inline-block;color:var(--gray)}
 .rature svg{position:absolute;left:-3%;top:8%;width:106%;height:88%;overflow:visible;pointer-events:none}
