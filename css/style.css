@@ -114,7 +114,9 @@ strong{font-weight:500}
 
 .eyebrow.tagline{text-transform:none;letter-spacing:.04em;font-size:15px}
 
-h1 s{text-decoration-thickness:.04em;color:var(--gray)}
+.rature{position:relative;display:inline-block;color:var(--gray)}
+.rature svg{position:absolute;left:-3%;top:8%;width:106%;height:88%;overflow:visible;pointer-events:none}
+.rature path{fill:none;stroke:#D0312D;stroke-width:3.5;stroke-linecap:round;vector-effect:non-scaling-stroke}
 
 /* Méthode */
 .formule{font-size:clamp(28px,4vw,44px);margin-bottom:24px}
