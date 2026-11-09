@@ -215,3 +215,7 @@ strong{font-weight:500}
   .top .nav .btn{padding:5px 6px;font-size:11.5px}
   .top .nav a.li svg{width:16px;height:16px}
 }
+/* Pied : bouton contact + LinkedIn */
+.foot-cta{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.foot .foot-cta .btn{background:var(--white);color:var(--navy);border-color:var(--white);text-decoration:none}
+.foot .foot-cta .btn:hover{background:#DCE3EE;text-decoration:none}
