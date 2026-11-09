@@ -116,6 +116,34 @@ strong{font-weight:500}
 
 h1 s{text-decoration-thickness:.04em}
 
+/* Méthode */
+.formule{font-size:clamp(28px,4vw,44px);margin-bottom:24px}
+.formule b{font-weight:300;font-size:1.5em;line-height:.8}
+.formule sup{font-size:.5em}
+.methode{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:48px;--c-ciblage:#B1B1B1;--c-sourcing:#5C7499;--c-recrutement:var(--navy)}
+.m-phase{color:var(--white);text-align:center;font-weight:500;letter-spacing:.06em;padding:12px;font-size:15px}
+.m-phase.ciblage{background:var(--c-ciblage);color:var(--navy)}
+.m-phase.sourcing{background:var(--c-sourcing);grid-column:span 2}
+.m-phase.recrutement{background:var(--c-recrutement);grid-column:span 2}
+.m-col{display:flex;flex-direction:column}
+.m-col .m-tag{display:none}
+.m-col h3{font-size:19px;text-align:center;padding:16px 0 12px}
+.m-col.sourcing h3{color:var(--c-sourcing)}
+.m-col ul{list-style:none;margin:0;padding:18px 12px;background:var(--gray-l);text-align:center;flex:1;display:flex;flex-direction:column;gap:10px;font-size:15px;color:var(--ink)}
+.m-col p{text-align:center;margin:0;padding-top:12px;font-size:15px}
+.m-col p span{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gray);margin-bottom:2px}
+.m-liv{color:var(--navy);font-weight:500}
+.m-plan{color:var(--muted)}
+@media (max-width:860px){
+  .methode{grid-template-columns:1fr;gap:28px}
+  .m-phase{display:none}
+  .m-col .m-tag{display:inline-block;align-self:flex-start;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--white);background:var(--c-recrutement);padding:3px 8px;text-align:left}
+  .m-col.ciblage .m-tag{background:var(--c-ciblage);color:var(--navy)}
+  .m-col.sourcing .m-tag{background:var(--c-sourcing)}
+  .m-col h3,.m-col p,.m-col ul{text-align:left}
+  .m-col h3{padding:8px 0}
+}
+
 /* Pied */
 .foot{background:#031634;color:#9FADC2;font-size:14px;padding:48px 0}
 .foot .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
