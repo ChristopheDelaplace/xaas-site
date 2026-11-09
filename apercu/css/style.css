@@ -144,6 +144,8 @@ h1 s{text-decoration-thickness:.04em}
   .m-col h3{padding:8px 0}
 }
 
+.lead.lead-large{max-width:none}
+
 /* Pied */
 .foot{background:#031634;color:#9FADC2;font-size:14px;padding:48px 0}
 .foot .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
