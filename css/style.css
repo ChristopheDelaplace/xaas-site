@@ -197,3 +197,21 @@ strong{font-weight:500}
   .top .nav{gap:8px;font-size:12px}
   .top .nav .btn{padding:6px 8px;font-size:12px}
 }
+/* LinkedIn */
+.top .nav a.li{display:inline-flex;align-items:center;padding:6px 0;border:0}
+.top .nav a.li svg{display:block}
+.li-foot{display:inline-flex;align-items:center;gap:8px}
+.li-foot svg{display:block}
+@media (max-width:760px){.top .nav a.li svg{width:18px;height:18px}}
+@media (max-width:380px){
+  .top .wrap{padding:0 12px;gap:6px}
+  .logo img{height:30px}
+  .top .nav{gap:9px}
+  .top .nav .btn{padding:6px 8px}
+}
+@media (max-width:340px){
+  .logo img{height:24px}
+  .top .nav{gap:7px;font-size:11.5px}
+  .top .nav .btn{padding:5px 6px;font-size:11.5px}
+  .top .nav a.li svg{width:16px;height:16px}
+}
