@@ -112,6 +112,8 @@ strong{font-weight:500}
 .top.scrolled .nav .btn{background:var(--navy);color:var(--white);border-color:var(--navy)}
 .top.scrolled .nav .btn:hover{background:var(--navy-2);color:var(--white)}
 
+.eyebrow.tagline{text-transform:none;letter-spacing:.04em;font-size:15px}
+
 /* Pied */
 .foot{background:#031634;color:#9FADC2;font-size:14px;padding:48px 0}
 .foot .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
