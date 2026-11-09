@@ -8,13 +8,13 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="css/style.css?v=17">
+<link rel="stylesheet" href="css/style.css?v=18">
 </head>
 <body>
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="index.html" aria-label="XaaS — accueil"><img src="img/logo-xaas.png" alt="XaaS OnDemand Talent !" width="122" height="60"></a>
+    <a class="logo" href="index.html" aria-label="XaaS — accueil"><img class="logo-blanc" src="img/logo-xaas.png" alt="XaaS OnDemand Talent !" width="122" height="60"><img class="logo-couleur" src="img/logo-xaas-couleur.png" alt="" width="122" height="60"></a>
     <nav class="nav" aria-label="Navigation principale">
       <a href="entreprises.html">Entreprises</a>
       <a href="candidats.html" aria-current="page">Candidats</a>
@@ -99,7 +99,7 @@
 </footer>
 
 <script>
-(function(){var h=document.querySelector('.top'),y=window.scrollY;window.addEventListener('scroll',function(){var n=window.scrollY;h.classList.toggle('cache',n>y&&n>80);y=n},{passive:true})})();
+(function(){var h=document.querySelector('.top');function f(){h.classList.toggle('scrolled',window.scrollY>40)}window.addEventListener('scroll',f,{passive:true});f()})();
 </script>
 <script src="js/mail.js"></script>
 </body>

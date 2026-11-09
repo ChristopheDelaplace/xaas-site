@@ -94,13 +94,19 @@ strong{font-weight:500}
 .job p{color:var(--muted);font-size:15px;margin-top:4px}
 .empty{padding:28px 0;color:var(--muted)}
 
-/* Bandeau bleu, logo blanc ; se masque quand on descend, revient quand on remonte */
+/* Bandeau bleu + logo blanc en haut ; blanc + logo couleur au défilement */
 .logo img{display:block;height:60px;width:auto}
-.top{background:var(--navy);transition:transform .3s ease}
-.top.cache{transform:translateY(-100%)}
+.top{transition:background .3s,border-color .3s}
 .top .nav a{color:#DCE3EE}
 .top .nav a:hover{color:var(--white)}
 .top .nav a[aria-current="page"]{color:var(--white);border-bottom-color:var(--white)}
+.top .logo-couleur{display:none}
+.top.scrolled{background:rgba(255,255,255,.97);border-bottom-color:var(--gray-l)}
+.top.scrolled .logo-blanc{display:none}
+.top.scrolled .logo-couleur{display:block}
+.top.scrolled .nav a{color:var(--ink)}
+.top.scrolled .nav a:hover{color:var(--navy)}
+.top.scrolled .nav a[aria-current="page"]{color:var(--navy);border-bottom-color:var(--navy)}
 @media (max-width:760px){
   .top .wrap{min-height:64px}
   .logo img{height:44px}
