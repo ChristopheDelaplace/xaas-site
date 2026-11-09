@@ -31,7 +31,7 @@ strong{font-weight:500}
 .dark .lead{color:#C6D0DF}
 
 /* En-tête */
-.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--gray-l)}
+.top{position:sticky;top:0;z-index:10;background:var(--navy);border-bottom:1px solid #0B3474}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;flex-wrap:wrap}
 .logo{text-decoration:none;display:inline-flex;flex-direction:column;line-height:1}
 .logo b{font-weight:300;font-size:32px;color:var(--navy);letter-spacing:-.02em}
@@ -93,6 +93,14 @@ strong{font-weight:500}
 .job h3{font-size:20px}
 .job p{color:var(--muted);font-size:15px;margin-top:4px}
 .empty{padding:28px 0;color:var(--muted)}
+
+/* Bandeau bleu */
+.logo img{display:block;height:60px;width:auto}
+.top .nav a{color:#DCE3EE}
+.top .nav a:hover{color:var(--white)}
+.top .nav a[aria-current="page"]{color:var(--white);border-bottom-color:var(--white)}
+.top .nav .btn{background:var(--white);color:var(--navy);border-color:var(--white)}
+.top .nav .btn:hover{background:#DCE3EE;color:var(--navy)}
 
 /* Pied */
 .foot{background:#031634;color:#9FADC2;font-size:14px;padding:48px 0}
