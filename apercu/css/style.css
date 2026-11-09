@@ -114,6 +114,8 @@ strong{font-weight:500}
 
 .eyebrow.tagline{text-transform:none;letter-spacing:.04em;font-size:15px}
 
+h1 s{text-decoration-thickness:.04em}
+
 /* Pied */
 .foot{background:#031634;color:#9FADC2;font-size:14px;padding:48px 0}
 .foot .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
