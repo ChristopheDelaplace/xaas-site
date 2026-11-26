@@ -274,3 +274,11 @@ strong{font-weight:500}
   .one [id]{scroll-margin-top:64px}
 }
 @media (min-width:961px){.steps{grid-template-columns:repeat(4,1fr)}}
+/* Accueil enrichi : moins de vide sur ordinateur */
+.home .hero{padding:80px 0 64px}
+.home .section{padding:64px 0}
+.home .h-cand{font-size:clamp(30px,4.4vw,52px)}
+.home .h-cand>span{color:var(--gray)}
+.home #candidats .step p{color:var(--muted)}
+.home #methode .actions{margin-top:32px}
+@media (max-width:760px){.home .hero{padding:44px 0 40px}.home .section{padding:44px 0}}
