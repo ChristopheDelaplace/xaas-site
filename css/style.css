@@ -256,3 +256,21 @@ strong{font-weight:500}
   .m-col p span{display:inline;margin-right:6px}
   .steps{margin-top:28px;gap:24px}
 }
+
+/* Version une page (aperçu) : moins de vide sur ordinateur */
+.one .hero{padding:80px 0 64px}
+.one .section{padding:64px 0}
+.one #offres .offer:first-of-type{margin-top:24px}
+.one .h-cand{font-size:clamp(30px,4.4vw,52px)}
+.one .h-cand>span{color:var(--gray)}
+.one #candidats .steps .step p{color:var(--muted)}
+.one .rgpd{margin-top:24px;font-size:14px;color:var(--muted)}
+.one .offer{padding:48px 0}
+.one [id]{scroll-margin-top:80px}
+@media (max-width:760px){
+  .one .hero{padding:44px 0 40px}
+  .one .section{padding:44px 0}
+  .one .offer{padding:32px 0}
+  .one [id]{scroll-margin-top:64px}
+}
+@media (min-width:961px){.steps{grid-template-columns:repeat(4,1fr)}}
