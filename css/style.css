@@ -190,6 +190,7 @@ strong{font-weight:500}
 .who div{border-top:1px solid var(--gray);padding-top:16px}
 .who p{color:var(--muted);margin-top:6px}
 .cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px}
+.cta .tagline{margin:14px 0 0}
 .top .logo{flex-shrink:0}
 @media (max-width:350px){
   .top .wrap{padding:0 10px;gap:6px}
