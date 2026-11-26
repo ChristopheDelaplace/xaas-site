@@ -220,3 +220,39 @@ strong{font-weight:500}
 .foot-cta{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
 .foot .foot-cta .btn{background:var(--white);color:var(--navy);border-color:var(--white);text-decoration:none}
 .foot .foot-cta .btn:hover{background:#DCE3EE;text-decoration:none}
+
+/* Mobile allégé (26/11) : moins de hauteur, pas de répétitions */
+@media (max-width:760px){
+  .section{padding:44px 0}
+  .hero{padding:44px 0 40px}
+  h1{font-size:34px}
+  h2{font-size:26px}
+  .lead{font-size:17px;margin-top:14px}
+  .eyebrow.tagline{font-size:19px;margin-bottom:12px}
+  .rule{display:none}
+  .actions{margin-top:24px}
+  /* Accueil : cartes offres sans les puces (le détail est sur Entreprises) */
+  .grid3{margin-top:24px;gap:0}
+  .card{padding:20px 0;gap:6px;border-top:1px solid #D5DAE2}
+  .card:first-child{border-top:2px solid var(--navy)}
+  .card h3{font-size:20px}
+  .card ul{display:none}
+  .refs{margin-top:28px;gap:20px}
+  .door{padding:24px 22px;gap:8px}
+  .door h3{font-size:22px}
+  /* Entreprises : offres plus serrées */
+  .offer{padding:32px 0;gap:12px}
+  .offer h4{font-size:12px;margin:0 0 4px}
+  .offer ul{margin:0 0 16px;font-size:15px}
+  .offer li{margin:3px 0}
+  /* Méthode : une ligne par étape */
+  .formule{font-size:28px;margin-bottom:12px}
+  .methode{gap:0;margin-top:24px}
+  .m-col{display:block;padding:16px 0;border-top:1px solid #D5DAE2}
+  .m-col h3{padding:6px 0 2px;font-size:19px}
+  .m-col ul{flex-direction:row;flex-wrap:wrap;gap:0;background:none;padding:0 0 6px;font-size:15px;color:var(--muted)}
+  .m-col li:not(:last-child)::after{content:" · ";white-space:pre}
+  .m-col p{display:inline-block;padding-top:0;margin-right:22px;font-size:14px}
+  .m-col p span{display:inline;margin-right:6px}
+  .steps{margin-top:28px;gap:24px}
+}
